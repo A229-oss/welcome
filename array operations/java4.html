@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+</head>
+<body>
+    <script>
+        const fruits = ["banana","orange","apple","cherri","mango"];
+        // document.getElementById("demo1").innerHTML = fruits.toString();
+
+        const fruits1 = ["banana","orange","apple","cherri","mango"];
+        document.getElementById("demo2").innerHTML = fruits1.join("*");
+
+
+    </script>
+</body>
+</html>
+let n=10;
+  let string = "";
+for (i = 0; i <= n; i++) {
+  
+  for (let j = 0; j <= n ; j++)
+
+  {
+    string += "*";
+  }
+ string += "\n";
+}
+
+   document.write(`<pre>${string}</pre>`); 
